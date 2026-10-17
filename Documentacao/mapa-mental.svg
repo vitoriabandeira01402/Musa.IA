@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 760" role="img" aria-labelledby="title desc">
+  <title id="title">Mapa mental da Musa.IA</title>
+  <desc id="desc">Diagrama do projeto Musa.IA com os ramos de contexto acadêmico, objetivo, experiência do chatbot, tecnologia e publicação.</desc>
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#8367C7" opacity=".11" />
+    </pattern>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="145%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#34234B" flood-opacity=".09" />
+    </filter>
+    <style>
+      text { font-family: 'DM Sans', 'Segoe UI', sans-serif; fill: #241B34; }
+      .branch { fill: none; stroke: #8367C7; stroke-width: 2.2; stroke-linecap: round; opacity: .7; }
+      .branch-dot { fill: #5603AD; }
+      .card { stroke: #DCD3E8; stroke-width: 1; }
+      .heading { font-size: 16px; font-weight: 700; }
+      .item { font-size: 13px; fill: #554D60; }
+      .small { font-size: 11px; fill: #756D7E; }
+      .center-title { fill: #FFFFFF; }
+      .center-subtitle { fill: #F0FFF1; }
+      .center-small { fill: #DCCBF2; }
+    </style>
+  </defs>
+
+  <rect width="1180" height="760" rx="18" fill="#F0FFF1" />
+  <rect width="1180" height="760" rx="18" fill="url(#dots)" />
+  <text x="48" y="43" class="small" font-weight="700" letter-spacing="1.5">PROCESSAMENTO DE LINGUAGEM NATURAL · DSM</text>
+
+  <path class="branch" d="M430 305 C350 250 345 225 340 188" />
+  <path class="branch" d="M750 305 C830 250 835 225 840 188" />
+  <path class="branch" d="M410 370 C355 370 350 390 340 408" />
+  <path class="branch" d="M770 370 C825 370 830 390 840 408" />
+  <path class="branch" d="M590 440 C590 490 590 515 590 550" />
+  <circle class="branch-dot" cx="430" cy="305" r="4" />
+  <circle class="branch-dot" cx="750" cy="305" r="4" />
+  <circle class="branch-dot" cx="410" cy="370" r="4" />
+  <circle class="branch-dot" cx="770" cy="370" r="4" />
+  <circle class="branch-dot" cx="590" cy="440" r="4" />
+
+  <g filter="url(#shadow)">
+    <rect x="30" y="72" width="310" height="116" rx="8" fill="#FFFFFF" class="card" />
+    <rect x="30" y="72" width="7" height="116" rx="3" fill="#8367C7" />
+    <text x="58" y="105" class="heading">Contexto acadêmico</text>
+    <text x="58" y="132" class="item">DSM · 6º semestre</text>
+    <text x="58" y="153" class="item">Processamento de Linguagem Natural</text>
+    <text x="58" y="174" class="item">Autora: Vitoria Alejandra</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="840" y="72" width="310" height="116" rx="8" fill="#FFFFFF" class="card" />
+    <rect x="840" y="72" width="7" height="116" rx="3" fill="#B3E9C7" />
+    <text x="868" y="105" class="heading">Objetivo</text>
+    <text x="868" y="132" class="item">Descobrir novas músicas</text>
+    <text x="868" y="153" class="item">Partir do gosto de cada pessoa</text>
+    <text x="868" y="174" class="item">Considerar som, referência e clima</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="30" y="350" width="310" height="116" rx="8" fill="#FFFFFF" class="card" />
+    <rect x="30" y="350" width="7" height="116" rx="3" fill="#C2F8CB" />
+    <text x="58" y="383" class="heading">Experiência do chatbot</text>
+    <text x="58" y="410" class="item">Escolher gênero ou clima</text>
+    <text x="58" y="431" class="item">Enviar música ou artista de referência</text>
+    <text x="58" y="452" class="item">Receber faixas e buscar no Spotify</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="840" y="350" width="310" height="116" rx="8" fill="#FFFFFF" class="card" />
+    <rect x="840" y="350" width="7" height="116" rx="3" fill="#8367C7" />
+    <text x="868" y="383" class="heading">Tecnologia e escopo atual</text>
+    <text x="868" y="410" class="item">HTML, CSS e JavaScript</text>
+    <text x="868" y="431" class="item">Regras locais por palavras-chave</text>
+    <text x="868" y="452" class="item">Sem modelo de IA conectado nesta versão</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="410" y="550" width="360" height="145" rx="8" fill="#FFFFFF" class="card" />
+    <rect x="410" y="550" width="360" height="7" rx="3" fill="#B3E9C7" />
+    <text x="442" y="588" class="heading">Publicação e ferramentas</text>
+    <text x="442" y="616" class="item">GitHub para versionamento</text>
+    <text x="442" y="638" class="item">GitHub Actions para o deploy</text>
+    <text x="442" y="660" class="item">GitHub Pages para hospedagem</text>
+    <text x="442" y="682" class="small">Site: vitoriabandeira01402.github.io/Musa.IA</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="410" y="295" width="360" height="150" rx="18" fill="#5603AD" stroke="#5603AD" />
+    <circle cx="460" cy="370" r="28" fill="#FFFFFF" opacity=".14" />
+    <text x="460" y="378" text-anchor="middle" font-size="26" class="center-title">♫</text>
+    <text x="505" y="357" font-size="27" font-weight="700" class="center-title">Musa.IA</text>
+    <text x="505" y="384" font-size="13" class="center-subtitle">Recomendação musical personalizada</text>
+    <text x="505" y="408" font-size="11" class="center-small">Uma nova descoberta começa no seu gosto</text>
+  </g>
+</svg>
